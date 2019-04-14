@@ -1,0 +1,85 @@
+("India vs South Africa", {"entities": [(0, 5, "LOC"), (9, 21, "LOC")]}), 
+("4th ODI, Vadodra", {"entities": [(0, 1, "CARDINAL"), (9, 16, "LOC")]}), 
+("17 March 2000", {"entities": [(0, 13, "DATE")]}), 
+("Over 45", {"entities": [(5, 7, "CARDINAL")]}),
+("Ishaan's scream drowned out the stadium din on the TV.", {"entities": [(0, 6, "NAME")]}), 
+("We were in Ishaan's house — Ishaan, Omi and I.", {"entities": [(11, 17, "NAME"), (28, 34, "NAME"), (36, 39, "NAME")]}),   
+("Ishaan's mom had brought in tea and khakra for us.", {"entities": [(7, 13, "LOC"), (18, 24, "LOC")]}), 
+("Tendulkar's gone.", {"entities": [(0, 9, "NAME")]}), 
+("Omi, don't you dare move now.", {"entities": [(0, 3, "NAME")]}),
+("India's score a ball ago was 256-2 after forty-five overs.", {"entities": [(0, 5, "LOC"), (29, 32, "CARDINAL"), (33, 34, "CARDINAL")]}),
+("Twenty-seven runs in five overs, with eight wickets to spare and Tendulkar on the crease.", {"entities": [(43, 52, "NAME")]}),
+("The odds were still in India's favour, but Tendulkar was out.", {"entities": [(23, 28, "LOC"), (18, 24, "LOC")]}),
+("And that explained the frowns on Ishaan's forehead., {"entities": [(33, 3KTU Mobile computing notes "NAME")]}),
+("'The khakra's crispy,' Omi said.", {"entities": [(5, 11, "FOOD"), (23, 26KTU Mobile computing notes"NAME")]}),
+("Ishaan glared at Omi, chiding him for his shallow sensory pleasure in a moment of national grief.", {"entities": [(0, 7, "NAME"), (17, 20, "NAME")]}),
+("Omi and I kept our tea cups aside and looked suitably mournful.", {"entities": [(0, 3, "NAME")]}),
+("The crowd clapped as Tendulkar made his exit.", {"entities": [(21, 30, "NAME")]}),
+("Jadeja came to the crease and added six more runs.", {"entities": [(0, 6, "NAME")]}),
+("End of forty-six overs, India 262/3.", {"entities": [(24, 30, "LOC"), (31, 34, "CARDINAL"), (35, 36, "CARDINAL")]}),
+("Over 46", {"entities": [(5, 7, "CARDINAL")]}),
+("I reached for my tea cup, but Ishaan signalled me to leave it alone.", {"entities": [(30, 36, "NAME")]}),
+("Ishaan was pissed with us anyway.", {"entities": [(0, 6, "NAME")]}),
+("The match was in Vadodra, just two hours away from Ahmedabad.", {"entities": [(17, 24, "LOC"), (51, 60, "LOC")]}),
+("'It is 5.25 runs required per over,' I said, not able to resist doing a mathematical calculation.", {"entities": [(7, 11, "CARDINAL")]}),
+("'You don't know this team. Tendulkar goes, they panic.", {"entities": [(27, 36, "NAME")]}),
+("It is like the queen bee is dead, and the hive loses order,' Ishaan said.", {"entities": [(61, 67, "NAME")]}),
+("Omi nodded, as he normally does to whatever Ishaan has to say about cricket.", {"entities": [(0, 3, "NAME"), (44, 50, "NAME")]}),
+("Ishaan had always avoided this topic ever since he ran away from NDA a year ago.", {"entities": [(0, 6, "NAME"), (65, 68, "FAC")]}),
+("'Later,' Ishaan said, staring avidly at a pimple cream commercial.", {"entities": [(9, 15, "LOC"), (18, 24, "LOC")]}),
+("'Later when Ishaan? I have an idea that works for all of us. We don't have a lot of choice, do we?'", {"entities": [(12, 18, "NAME")]}),
+("'All of us? Me, too?' Omi quizzed, already excited.", {"entities": [(22, 25, "NAME")]}),
+("However, this time we needed Omi.", {"entities": [(29, 32, "NAME")]}),
+("Yes, you play a critical role Omi.", {"entities": [(30, 33, "NAME")]}),
+("But later when Ish?", {"entities": [(15, 18, "NAME")]}),
+("Let's go to Gopi.", {"entities": [(12, 16, "NAME")]}),
+("For Vidya.", {"entities": [(4, 9, "NAME")]}),
+("Beep, beep, beep, the car came near the house again.", {"entities": [(22, 25, "VEHICLE")]}),
+("Ish said as he saw India hit a four.", {"entities": [(0, 3, "NAME"), (19, 24, "LOC")]}),
+("Ish picked up his bat.", {"entities": [(0, 3, "NAME")]}),
+("Ish stood in front of the car and asked the boy to stop.", {"entities": [(0, 3, "NAME")]}),
+("The Esteem halted in front of Ish.", {"entities": [(4, 10, "VEHICLE"), (30, 33, "NAME")]}),
+("Ish went to the driver,an adolescent.", {"entities": [(0, 3, "NAME")]}),
+("Ish grabbed the boy's head from behind and smashed his face into the bonnet.", {"entities": [(0, , "NAME")]}),
+("Ish grabbed his collar and gave six non-stop slaps across his face.", {"entities": [(0, 3, "NAME")]}),
+("Omi picked up the bat and smashed the windscreen.", {"entities": [(0, 3, "NAME")]}),
+("'He has been troubling Vidya since last week,' Ish said.", {"entities": [(23, 28, "NAME"), (9, 21, "LOC")]}),
+("India vs South Africa", {"entities": [(0, 5, "LOC"), (9, 21, "LOC")]}),
+("India vs South Africa", {"entities": [(0, 5, "LOC"), (9, 21, "LOC")]}),
+("The Esteem halted in front of Ish.", {"entities": [(4, 10, "VEHICLE"), (30, 33, "NAME")]}),
+
+
+
+
+
+
+
+
+
+ 
+He kicked the boy's face with his knee and released him. The boy kneeled on the floor and sucked in air.
+The last kick from Ish had smeared the blood from his nose across his face.
+'And what do you think you are doing?' Ish's dad asked him.
+'Teaching him a lesson,' Ish said and unhooked his bat stuck in the
+windscreen.
+
+We still come here sometimes, but now we prefer the abandoned bank branch
+compound near my home.
+A tennis ball landed at my feet. A sweaty twelve-year-old boy came running to
+me. I picked up the ball for him. Nana Park is where I had first met Ishaan and
+Omi, over fifteen years ago. There was no dramatic moment that marked the start
+of our friendship. Maybe we sized each other up as the only six-year-olds in the
+ground and started playing together.
+Like most neighbourhood kids, we went to the Belrampur Municipal School,
+hundred metres down Nana Park. Of course, only I studied while Ish and Omi ran
+to the park at every opportunity.
+Three bicycles tried to overtake each other in the narrow by lane. I had to step
+inside Qazi restaurant to let them pass. A scent of fried coriander and garlic filled
+the narrow room. The cook prepared dinner, a bigger feast than usual as India
+had won the match. Ishaan and I came here sometimes (without telling Omi, of
+course) for the cheap food and extraordinary mutton. The owner assured us
+'small mutton', implying goat and not beef. I believed him, as he would not have
+survived in the neighbourhood if he served beef. I wanted to eat here instead of
+Gopi. But we had promised Gopi to Omi, and the food was fantastic there as well.
+Food is a passion here, especially as Gujarat is a dry state. People here get drunk
+on food.

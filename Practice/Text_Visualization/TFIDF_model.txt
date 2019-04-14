@@ -1,0 +1,35 @@
+In BOW model all words have equal priority hence no semantic information is preserved
+solution to this is the TF_IDF model were semantic importance is preserved
+
+TF-IDF is intended to reflect how relevant a term is in a given document.
+
+given a dataset:
+    1. convert all letters to lower case
+    2. doing word tokenization
+    3. TF - Term Frequency
+        IDF - Inverse Document Frequency
+        TF-IDF =TF*IDF
+        TF = (number of occurrences of a word in a sentence)/(total number of words in the sentence)        ##sentence can correspond to document when in large corpus
+        IDF = log((number of sentences/number of sentences containing the word))  
+       The IDF (inverse document frequency) of a word is the measure of how significant that term is in the whole corpus.
+       
+    4. form the histogram and find the most frequent words
+    5. calculate the TF of each word in the frequent word list in correspondence with the sentences
+    6. calculate the IDF value of each frequent word
+    7. TFIDF(word) = TF(sentence,word) * IDF(word)
+    
+    
+the imporatant word will have highest TF-IDF value
+
+the word appearing in all sentences will have TF-IDF value as 0
+
+
+
+The intuition behind it is that if a word occurs multiple times in a document, we should boost its relevance as it should be more meaningful than other words that appear fewer times (TF). At the same time, if a word occurs many times in a document but also along many other documents, maybe it is because this word is just a frequent word; not because it was relevant or meaningful (IDF).
+
+ a word’s relevance is proportional to the amount of information that it gives about its context (a sentence, a document or a full dataset). 
+ 
+ relevant words are not necessarily the most frequent words
+ 
+ the higher the TF*IDF score (weight), the rarer the term and vice versa.
+    

@@ -1,0 +1,63 @@
+https://nlp.stanford.edu/software/CRF-NER.shtml
+
+https://github.com/arop/ner-re-pt/wiki/NLTK
+
+http://www.nltk.org/book/
+
+https://blog.sicara.com/train-ner-model-with-nltk-stanford-tagger-english-french-german-6d90573a9486
+
+
+spacy :- https://spacy.io/usage/
+
+Medium:Named Entity Recognition with NLTK and SpaCy :- https://towardsdatascience.com/named-entity-recognition-with-nltk-and-spacy-8c4a7d88e7da
+
+
+Medium:Named Entity Recognition and Classification with Scikit-Learn :- https://towardsdatascience.com/named-entity-recognition-and-classification-with-scikit-learn-f05372f07ba2
+
+
+Complete guide to build your own Named Entity Recognizer with Python :-https://nlpforhackers.io/named-entity-extraction/
+
+
+Python nltk.ne_chunk() Examples :- https://www.programcreek.com/python/example/91258/nltk.ne_chunk
+
+
+Introduction to Named Entity Recognition with Examples and Python Code for training Machine Learning model :- https://www.commonlounge.com/discussion/2662a77ddcde4102a16d5eb6fa2eff1e
+
+Stackoverflow :- https://stackoverflow.com/questions/12264593/how-to-extract-relationship-from-text-in-nltk
+
+
+nltk/documentation :- https://stackoverflow.com/questions/12264593/how-to-extract-relationship-from-text-in-nltk
+
+
+MIT Information Extraction :- https://github.com/mit-nlp/MITIE
+
+
+
+kaggle/novel_dataset :- https://www.kaggle.com/datasets?sortBy=relevance&group=public&search=novel&page=1&pageSize=20&size=all&filetype=all&license=all
+
+
+
+Sicaria/Python: How to Train your Own Model with NLTK and Stanford NER Tagger? (for English, French, German�) :- https://blog.sicara.com/train-ner-model-with-nltk-stanford-tagger-english-french-german-6d90573a9486
+
+
+Training a Machine Learning Classifier for Relation Extraction from Medical Literature :-  https://www.microsoft.com/developerblog/2016/09/13/training-a-classifier-for-relation-extraction-from-medical-literature/
+
+
+Module relextract :- https://docs.huihoo.com/nltk/0.9.5/api/nltk.sem.relextract-module.html
+
+nltk/relation extraction :- http://www.nltk.org/howto/relextract.html
+
+
+stackoverflow/relation extraction using svm :- https://stackoverflow.com/questions/37121544/how-to-build-features-for-relation-extraction-for-svm
+
+stackoverflow/extract relationships using NLTK :- https://stackoverflow.com/questions/7851937/extract-relationships-using-nltk
+
+
+stackoverflow/nltk-relation extraction :- https://stackoverflow.com/questions/40480839/nltk-relation-extraction-returns-nothing
+
+
+How to setup and use Stanford CoreNLP Server with Python :- https://www.khalidalnajjar.com/setup-use-stanford-corenlp-server-python/
+
+
+
+Train NER model with NLTK/github :- https://github.com/arop/ner-re-pt/wiki/NLTK

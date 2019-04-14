@@ -1,0 +1,98 @@
+N-gram model is based on the concept of markov chain of states                                                 
+
+Consider A,B be two states and the probablity of transitions between them(4 transitions) is 50%
+then the chain of states can be like a sequence of this two states
+    : AABABB.......
+                                                                                            ##http://text-analytics101.rxnlp.com/2014/11/what-are-n-grams.html
+N-gram is a continous sequence of n items from a given sample of text
+items corresponds to the states in the markov chain
+items can be characters,words,sentences,...   ( the appropriate for the data processing context)
+
+
+N=2 bigrams
+N=3 trigrams .....
+
+character grams - characters are the states in the markov chain
+ eg:
+        the bird is flying                                                  #### the window of the specified size moves over the sentences
+        
+        N=2
+            bigrams = 'th', 'he', 'e ' , ' b' , 'bi', 'ir' ,'rd' ,'d ' , ' i' , 'is' ,'s ', ' f' , 'fl' , 'ly' , 'yi' , 'in' , 'ng'
+            
+        N =3
+            trigrams = 'the' ,'he ', 'e b' , ................................................
+            
+            
+        such a system of mapping is for prediction of next word in auto completion systems
+        
+        Consider the trigrams:
+        
+                    the ---------> 
+                    
+                    he  ---------> b
+                    
+                    e b ----------> i
+                    
+                     bi ----------> r
+                     
+                    bir ----------> d
+                    
+                    ird ---------->  
+                    
+                    ......................................................
+                    
+                    
+                    
+word grams - words are the ststes in the markov chain
+
+
+eg: the bird is flying on the blue sky
+
+trigram:
+            the bird is   ---------------> flying
+            
+            bird is flying --------------> on
+            
+            is flying on ----------------> the
+            
+            flying on the ---------------> blue
+            
+            on the blue ------------------> sky
+            
+            the blue sky ----------------->
+            
+            
+
+for an auto complete system such dictionary like structure will be formed by analysing a massive corpus
+here on trigram may more than on entry 
+the analyser randomly selects one while user is typing as a suggestion
+
+
+
+
+
+
+ If X=Num of words in a given sentence K, the number of n-grams for sentence K would be:       X - (N-1)
+ 
+ 
+ 
+ 
+ 
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    

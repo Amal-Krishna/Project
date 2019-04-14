@@ -1,0 +1,15 @@
+For any algorithm the text need to be converted into model
+this is the task of converting into numeric format
+it is done usuing a method called bag of words
+
+given a set of sentences 
+    1. pre-process it to remove punctuations,stopwords,...
+    2. converting all letters to lower case
+    3. doing word tokenization
+    3. forming a histogram of words
+    4. forming a dictniory like structure were word is the key and value is the count
+    5. sort the histogram
+    6. filtering the list of words to find the most frequent words from it
+    7. create a matrix - numberof rows = number of sentences && number of columns = number of words in the frequent word list
+            put 1 if word is in the sentence otherwise 0
+    
