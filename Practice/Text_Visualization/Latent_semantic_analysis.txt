@@ -1,0 +1,36 @@
+Another model used in nlp for semantic analysis of a text/article/document
+
+this relates a document to a particular concept
+
+LSA is technique of analysing relationship between set of documents and terms they contain and forming a set of concepts related to the document/terms
+
+lsa is use for article classification - to classify to different groups
+
+lsa model is formed by transforming from BOW model
+
+lsa is based on the mathematical concept of SVD
+    according to svd any given matrix can be represeneted as product of three matrices
+    
+    A[m*n] = U[m*r] * S[r*r] * (V[n*r])^T               #### m = no of documents, n = no of words/features
+    
+    
+    U  - left singular matrix ## m - no of documents, r = no of concepts
+    
+    s -  rank matrix , ###r - rank of A (diagonal matrix)
+    
+    V - right singular matrix   ## n - no of words/features , r - no of concepts
+    
+    
+lsa -Applications
+     article bucketing in websites
+     
+     finding relations btw articles/words
+     
+     page indexing in search engines
+     
+     
+google uses lsa for page ranking. google stores a large number of keywords associated with each topic in its database
+when user searches the websites containing most of the words in its database is given highest rank and shown first
+    
+    
+    
