@@ -1,0 +1,88 @@
+logistic regression is used for binary classification
+it is a core topic in ML
+
+point concept of logistic regression is used here
+
+ Each sentence is mapped to a point
+ 
+ each document in the dataset is given point(value calculated based on its feature values)
+ this point value detrmines whether the document is +ve or -ve
+ 
+ 
+ If the point is greater than 0.5 then positive else negative.
+
+Logistic Regression – Learning algorithm
+
+     A learning algorithm is a specific type of algorithm whose
+    performance increases with time. Logistic regression is a type of
+    learning algorithm. It learns from a training dataset, the pattern of
+    the data and applies the learned logics on new data for prediction.
+
+    
+Logistic Regression – Linear Equation
+
+        Consider the equation:
+
+                    y = a + bx1 + cx2 + ⋯ + dx2000
+
+                                                a, b, c, d = coefficients
+
+                                                X1, X2, ..., X2000 = independent variables /features
+    
+                                                y = dependent variable
+
+                                                
+    The task the learning algorithm does is that it learns from the training dataset                ## coefficients are caluated by gradient descent
+    by adjusting the value of coefficients
+    
+    the algorithm optimises the value of these coefficients that it can predict accurately for documents in testing dataset
+    
+    
+    
+Logistic Regression – Predicting Sentiment
+    
+                If y >= 0.5 → Positive sentiment
+    
+                If y < 0.5 → Negative sentiment
+                
+                
+        For some values of the dependent variables, the value of y can be > 1 or < 0.
+        in this case the value of y is resticted between the range 0-1(normalisation)
+
+
+        
+        
+        
+        For y > 0,
+                        y = e(a+bx1+cx2+⋯+dx2000)
+
+        For y < 1,
+                         y = e(a+bx1+cx2+⋯+dx2000) / e (a+bx1+cx2+⋯+dx2000) + 1
+                         
+        
+        simplyfying,
+                        ln( y / y−1 ) = a + bx1 + cx2 + ⋯ + dx2000
+
+
+
+
+Logistic Regression – Graph
+                
+                
+                A Graph is plotted feature-probablity
+                
+                the points of documents in test dataset is mapped to it
+                
+                draw perpendicular lines from points to the graph 
+                
+                find the probality from y-axis corresponding to the point of intersection of line on graph
+                
+                if point probablity value is greater than 0.5 it is +ve otherwise -ve
+                
+                         
+    
+
+                            
+        
+
+    

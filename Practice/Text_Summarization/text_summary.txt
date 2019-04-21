@@ -1,0 +1,19 @@
+Given a set of sentences - form a summary of the sentences by calculating the ranks of each sentences
+
+two approaches for it - NLP based approache
+                    - Deep learning based approach
+steps :-
+
+ sentence tokenize the dataset
+
+ then preprocess the sentence
+
+ form histogram
+
+ form weighted histogram (by dividing all count with highest count)
+
+ calculate the sentence score by adding all word scores of words in the sentence
+ 
+ find the sentence score of all sentences
+ 
+ select n highest scored sentences as summary

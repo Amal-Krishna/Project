@@ -1,0 +1,31 @@
+
+word2vec model is an important model for text visualization using the concept of matrices
+
+word2vec model is an improvement to the BOW,TFIDF model where semantic information is notthat much preserved
+
+the main advantage is that it preserves the semantic information pretty well compared to any other model
+
+for BOW,TFIDF model - There’s a chance of overfitting the model. Overfitting a scenario
+when model performs very well with your dataset but fails miserably
+when applied to any new dataset.
+
+ In word2vec model, each word is represented as vector of 32 or more
+dimension instead of a single number.
+
+Relation between different words is preserved.
+
+Word2Vec – Steps to build the model
+
+    Scrape through a huge dataset like the whole Wikipedia.
+    
+    Create a matrix with all the unique words in the dataset.
+
+    The matrix represents the occurrence relation between the words.
+
+    Split the matrix into two thin matrices.  ------ A * A^T
+
+    We have the model.
+
+Word Vectors
+
+        going = (X1going , X2going , ... , X300going )
