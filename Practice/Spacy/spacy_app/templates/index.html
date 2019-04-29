@@ -44,14 +44,7 @@
                     <label>Your Text</label>
             <textarea type="text" rows="5" cols="5" class="form-control"  name="rawtext" required="true">   </textarea>
             <br/>
-         <!--   <select class="form-control" name="taskoption">
-			  <option selected>Select Task</option>
-			  <option value="organization">Organization</option>
-			  <option value="person">Person</option>
-			  <option value="geopolitical">Geopolitical</option>
-        <option value="money">Money</option>
-			</select> -->
-			<br/>
+			      <br/>
             <button type="reset" class="btn btn-primary"><i class="fa fa-eraser"></i> Clear</button>
             <button type="submit" class="btn btn-info"><i class="fa fa-database"></i> Submit</button>
          
@@ -61,12 +54,11 @@
 
     <div class="container">
     	<div class="alert alert-success" role="alert">
-        <p class="alert-heading">Tagged Entities</p>
-        <ul>
-          {% for key in results.items() %}
-              <li>{{ key }} : {{ results[key] }}</li>
-          {% endfor %}
-        </ul>
+        <p class="alert-heading">Result</p>
+              <ul>{% for ele in result %}
+                  <li>{{ele}}</li>
+                  {%endfor %}
+              </ul>
     	</div>
     </div>
     
